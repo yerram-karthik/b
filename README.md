@@ -28,6 +28,15 @@ The script handles pagination and processes each page of results.
    ```bash
    git clone https://github.com/yerram-karthik/beyondchats.git
    cd beyondchats
+2. Apply Migrations
+Apply the initial migrations to set up the database:
+'python manage.py migrate'
+3.Running the Django Server
+Start the Django development server:
+'python manage.py runserver'
+4.Access the Web Interface
+Open your web browser and navigate to:
+'http://127.0.0.1:8000/'
 
 ## OUTPUT 
 
