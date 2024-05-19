@@ -48,11 +48,3 @@ The script handles pagination and processes each page of results.
   'http://127.0.0.1:8000/'
 
 
-
-# OUTPUT 
-
-![image](https://github.com/yerram-karthik/beyondchats/assets/136573431/5cc50df6-718f-4ef2-a587-cb360dcb6bb2)
-
-https://github.com/yerram-karthik/beyondchats/assets/136573431/35566b6f-d38e-4058-bc66-236cb1f89eb3
-
-
