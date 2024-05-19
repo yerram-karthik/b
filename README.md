@@ -23,7 +23,11 @@ The API endpoint used: https://devapi.beyondchats.com/api/get_message_with_sourc
 The script handles pagination and processes each page of results.
 
 ## Setup
-### Cloning the Repository
+### 1. Cloning the Repository
+First, clone the repository from GitHub and navigate into the project directory: 
+```bash
+git clone https://github.com/yerram-karthik/beyondchats.git
+cd beyondchats
 
 
 
