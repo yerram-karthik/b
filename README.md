@@ -1,8 +1,7 @@
 # BeyondChats Python Gen-AI Developer Assignment
 
 ## Overview
-This repository contains the Python script for the BeyondChats assignment. The task was to fetch data from a paginated API, identify response-source pairs, and return citations in a specified format.
-A Userfriendly Interface also has been developed using python's webframework Django
+This repository contains the Python script for the BeyondChats assignment. The task was to fetch data from a paginated API, identify response-source pairs, and return citations in a specified format. The project includes a Django-based web interface for user interaction.
 
 ## Features
 - Fetches data from a paginated API.
@@ -11,9 +10,17 @@ A Userfriendly Interface also has been developed using python's webframework Dja
 - User-friendly web interface using Django.
 
 ## Requirements
-- Python 
+- Python
+- Django
 - `requests` library
-- `Django` library
+
+## Usage
+Script Usage
+- The script will fetch data from the specified API, process the responses and sources, and output the citations.
+  
+# API Endpoint
+The API endpoint used: https://devapi.beyondchats.com/api/get_message_with_sources
+The script handles pagination and processes each page of results.
 
 ## Setup
 ### Cloning the Repository
