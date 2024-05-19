@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citations</title>
+</head>
+<body>
+    <h1>Citations</h1>
+    <ul>
+        {% for citation in citations %}
+            <li>
+                <strong>Response ID:</strong> {{ citation.id }}<br>
+                <strong>Link:</strong> <a href="{{ citation.link }}">{{ citation.link }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

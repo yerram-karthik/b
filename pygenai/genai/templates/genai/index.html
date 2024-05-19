@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GenAI Citations</title>
+</head>
+<body>
+    <h1>Welcome to GenAI!</h1>
+    <button onclick="fetchCitations()">Fetch Citations</button>
+    <ul id="citations-list"></ul>
+
+    <script>
+        function fetchCitations() {
+            fetch('/citations/')
+                .then(response => response.json())
+                .then(data => {
+                    const list = document.getElementById('citations-list');
+                    list.innerHTML = '';
+                    data.forEach(item => {
+                        const li = document.createElement('li');
+                        li.innerText = `Response ID: ${item.response_id}, Citations: ${item.citations.map(citation => citation.link).join(', ')}`;
+                        list.appendChild(li);
+                    });
+                });
+        }
+    </script>
+</body>
+</html>
