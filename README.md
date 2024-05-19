@@ -28,3 +28,9 @@ The script handles pagination and processes each page of results.
    ```bash
    git clone https://github.com/yerram-karthik/beyondchats.git
    cd beyondchats
+
+## OUTPUT 
+
+https://github.com/yerram-karthik/beyondchats/assets/136573431/35566b6f-d38e-4058-bc66-236cb1f89eb3
+
+
