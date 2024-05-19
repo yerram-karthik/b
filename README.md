@@ -24,9 +24,12 @@ The script handles pagination and processes each page of results.
 
 ## Setup
 ### Cloning the Repository
+
 # 1. Clone the repository:
    ```bash
-   git clone https://github.com/yerram-karthik/beyondchats.git
+# 1. Clone the repository:
+   ```bash
+  git clone https://github.com/yerram-karthik/beyondchats.git
    cd beyondchats
    
 # 2. Apply Migrations
